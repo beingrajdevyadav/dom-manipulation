@@ -24,7 +24,7 @@ createBtn.addEventListener('click', function () {
     tag.innerText = tagText;
     tag.style.color = tagColor;
     tag.style.backgroundColor = tagBGColor;
-    tag.style.margin = tagMargin
+    tag.style.margin = +tagMargin + "px";
     // ------>>>>>------->>>>>>------>>>>>>
     //   conditions to place created tag
     // ------<<<<<-------<<<<<<------<<<<<<
