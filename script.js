@@ -13,6 +13,7 @@ createBtn.addEventListener('click', function () {
     let tagText = document.querySelector("#tagText").value;
     let tagColor = document.querySelector("#color").value;
     let tagBGColor = document.querySelector("#bg-color").value;
+    let tagMargin = document.querySelector("#margin").value;
     let tagPosition = document.querySelector("#tagPosition").value;
 
     // ------>>>>>------->>>>>>------>>>>>>
@@ -23,7 +24,7 @@ createBtn.addEventListener('click', function () {
     tag.innerText = tagText;
     tag.style.color = tagColor;
     tag.style.backgroundColor = tagBGColor;
-
+    tag.style.margin = tagMargin
     // ------>>>>>------->>>>>>------>>>>>>
     //   conditions to place created tag
     // ------<<<<<-------<<<<<<------<<<<<<

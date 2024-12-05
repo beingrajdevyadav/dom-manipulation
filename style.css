@@ -12,7 +12,11 @@ body{
     background-color: #f1f2f1;
     color: #333;
 }
-
+header{
+    background-color: #a41f35;
+    color: #ddd;
+    padding: .5rem;
+}
 #box{
     width: 100%;
     border-radius: 5px;
@@ -40,9 +44,9 @@ body{
     width: 100%;
 }
 .controls button{
-    background-color: #333;
+    background-color: #a41f35;
     color: #ddd;
-    border-radius: 50px;
+    border-radius: 3px;
     outline: none;
     border: none;
     cursor: pointer;
@@ -50,7 +54,8 @@ body{
     transition: all .5s ease;
 }
 .controls button:hover{
-    background-color: #444;
+    background-color: #842131;
+    
 }
 footer {
     padding: 1rem;

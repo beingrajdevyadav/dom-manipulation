@@ -10,11 +10,10 @@
 </head>
 
 <body>
-    <h1>DOM Manipulation</h1>
-    <p>In JavaScript, One of the key features that enables this interactivity is Document Object Model (DOM)
-        manipulation. <br> DOM manipulation allows developers to interact with and modify the structure, style, and
-        content of web pages.</p>
-    <br>
+    <header>
+        <h1>DOM Manipulation</h1>
+    </header>
+    
     <hr>
     <div id="box">
 
@@ -52,9 +51,12 @@
             <option value="after">After But Outside</option>
         </select>
 
-        <div class="form">
-            <input type="text" id="tagText" placeholder="Enter the text">
+        <div>
+            <label for="margin">Margin :</label>
+            <input type="number" placeholder="Enter Value" name="margin" id="margin">
         </div>
+        
+        <div></div>
 
         <div>
             <label for="bg-color">BG Color :</label>
@@ -65,6 +67,10 @@
             <input type="color" name="color" id="color">
         </div>
             
+        <div class="form">
+            <input type="text" id="tagText" placeholder="Enter the text">
+        </div>
+
         <button id="createBtn"> Create Element</button>
     </div>
 
