@@ -24,6 +24,13 @@
     <div class="controls">
         <select name="option" id="tagName">
             <option value="">Select Tag</option>
+            <option value="h1"> &lt;h1&gt; </option>
+            <option value="h2"> &lt;h2&gt; </option>
+            <option value="h3"> &lt;h3&gt; </option>
+            <option value="h4"> &lt;h4&gt; </option>
+            <option value="h5"> &lt;h5&gt; </option>
+            <option value="h6"> &lt;h6&gt; </option>
+            <option value="p"> &lt;p&gt; </option>
             <option value="b"> &lt;b&gt; </option>
             <option value="strong"> &lt;strong&gt; </option>
             <option value="i"> &lt;i&gt; </option>
@@ -37,18 +44,28 @@
 
         </select>
 
-        <select name="option" id="place">
+        <select name="option" id="tagPosition">
             <option value="">Select Position</option>
-            <option value="">At End But Inside</option>
-            <option value="">At Starts But Inside</option>
-            <option value="">Before But Outside</option>
-            <option value="">After But Outside</option>
+            <option value="append">At End But Inside</option>
+            <option value="prepend">At Starts But Inside</option>
+            <option value="before">Before But Outside</option>
+            <option value="after">After But Outside</option>
         </select>
 
         <div class="form">
-            <input type="text" placeholder="Enter the text">
+            <input type="text" id="tagText" placeholder="Enter the text">
         </div>
-        <button> Create Element</button>
+
+        <div>
+            <label for="bg-color">BG Color :</label>
+            <input type="color" name="bg-color" id="bg-color"> 
+        </div>
+        <div>
+            <label for="color">Color :</label>
+            <input type="color" name="color" id="color">
+        </div>
+            
+        <button id="createBtn"> Create Element</button>
     </div>
 
     <footer>

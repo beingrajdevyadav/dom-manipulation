@@ -16,7 +16,8 @@ body{
 #box{
     width: 100%;
     border-radius: 5px;
-    background-color: #ddd;
+    /* background-color: #fff; */
+    border: 1px solid #666;
     height: 60vh;
     border-left: 5px solid #333;
     margin: 1rem 0;
@@ -54,5 +55,5 @@ body{
 footer {
     padding: 1rem;
     font-size: 12px;
-    font-style: italic;
+    /* font-style: italic; */
 }
